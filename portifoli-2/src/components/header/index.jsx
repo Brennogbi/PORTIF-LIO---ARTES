@@ -27,7 +27,7 @@ function Header({ titulo }) {
       <NAV>
         <Li><A to="/">Home</A></Li>
         <Li><A to="/GALERIA">Galeria</A></Li>
-        <Li><A href="#">Sobre</A></Li>
+        <Li><A to="/Sobre">Sobre</A></Li>
         <Li><A href="#">Comissôes</A></Li>
         <Li><A href="#">Compra</A></Li>
       </NAV>
@@ -53,7 +53,7 @@ function Header({ titulo }) {
         <UL>
           <Li><A to="/">Home</A></Li>
           <Li><A to="/GALERIA">Galeria</A></Li>
-          <Li><A href="#">Sobre</A></Li>
+          <Li><A to="/Sobre">Sobre</A></Li>
           <Li><A href="#">Comissôes</A></Li>
           <Li><A href="#">Compra</A></Li>
         </UL>

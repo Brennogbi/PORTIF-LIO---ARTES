@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled  from "styled-components";
+
 
 export const GridContainer = styled.div`
   display: grid;
@@ -16,7 +17,7 @@ export const GridContainer = styled.div`
 `;
 
 
-export const  Griimage = styled.img`
+export const Griimage = styled.img`
 
 
 
@@ -43,16 +44,38 @@ export const Modalorverlay = styled.div`
 // Container da imagem ampliada dentro do modal
 export const MODALCONTENT = styled.div`
   position: relative;
+  max-width: 70%;
+  max-height: 70%;
+
+  @media (max-width: 480px) {
+
+position: relative;
   max-width: 90%;
   max-height: 90%;
+    
+  }
 `;
 
 // Imagem ampliada no modal
-export const Modalimagem  = styled.img`
-  width: 100%;
+export const Modalimagem = styled.img`
+  width: 55vh;
   height: auto;
   border-radius: 8px;
+  left: auto;
+
+    @media (max-width: 480px) {
+
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    
+  }
+
+  
+
 `;
+
+
 
 // Botão para fechar o modal
 export const Closebutton = styled.button`
@@ -68,6 +91,8 @@ export const Closebutton = styled.button`
   cursor: pointer;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 `;
+
+
 
 
 
