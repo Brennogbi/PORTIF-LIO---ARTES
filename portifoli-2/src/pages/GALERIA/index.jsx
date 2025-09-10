@@ -14,19 +14,17 @@ import { GridContainer, Griimage,Modalorverlay,MODALCONTENT,
 import imagem1 from '../../assets/img/tim.jpg'
 import imagem2 from '../../assets/img/justiceiro.jpg'
 import imagem3 from '../../assets/img/manobrow.jpg'
-import imagem5 from '../../assets/img/20170101_021342.jpg'
-import imagem6 from '../../assets/img/20170101_041716.jpg'
-import imagem7 from '../../assets/img/FB_IMG_1531154905912.jpg'
-import imagem8 from '../../assets/img/kurt.jpg'
+import imagem4 from '../../assets/img/kurt.jpg'
+import imagem5 from '../../assets/img/naruto.jpg'
+
 
 const imagens = [
-  { id: 1, url: imagem1, },
+  { id: 5, url: imagem1, },
   { id: 2, url: imagem2, },
   { id: 3, url: imagem3, },
-  { id: 4, url: imagem5, },
-  { id: 5, url: imagem6, },
-  { id: 6, url: imagem7, },
-  { id: 7, url: imagem8, },
+  { id: 4, url: imagem4, },
+  { id: 1, url: imagem5, },
+ 
 ]
 
 
