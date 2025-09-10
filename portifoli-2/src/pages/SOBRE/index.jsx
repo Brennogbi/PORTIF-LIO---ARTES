@@ -2,15 +2,13 @@
 import {IMAGEMSOBRE, DIVCONTAINER}  from './styles'
 import Header from '../.././components/header'
 import imagem from '../../assets/img/SOBRE.jpg'
-import imagem2 from '../../assets/img/kurt.jpg'
 
-import { useState } from 'react'
 
 
 
 function Sobre() {
 
-    const[imagematual, setimagenatual] = useState(imagem)
+    
         
    
 
@@ -24,10 +22,9 @@ function Sobre() {
               < DIVCONTAINER>
               
               
-              <IMAGEMSOBRE src={imagematual} alt="foto perfil"
+              <IMAGEMSOBRE src={imagem} alt="foto perfil"
               
-              onMouseOver={()=> setimagenatual(imagem)}
-              onMouseOut={() =>{setimagenatual(imagem2)}}
+              
               
               />
 
