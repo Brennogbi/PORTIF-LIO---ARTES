@@ -215,9 +215,9 @@ h1{
   /* responsividade */
   @media (max-width: 480px) {
     h1 {
-      font-size: 60px;
+      font-size: 50px;
       word-spacing: 20px;
-      padding-top: 220px;
+      padding-top: 150px;
     }
   }
 
