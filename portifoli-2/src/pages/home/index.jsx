@@ -25,7 +25,7 @@ function Home() {
 
       <Titulo1>
 
-        <h1>ArteSantos</h1>
+        <h1>Arte Santos</h1>
 
       </Titulo1>
 
