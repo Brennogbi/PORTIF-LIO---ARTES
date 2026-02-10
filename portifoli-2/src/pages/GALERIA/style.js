@@ -1,34 +1,21 @@
-import styled  from "styled-components";
-
+import styled from "styled-components";
 
 export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 8px;
-  padding-top: 140px  ; /* espaço para o header fixo */
-  
-  
-  
-  
-  
-
-  
-
+  padding-top: 140px; /* espaço para o header fixo */
 `;
 
+export const GridImage = styled.img`
+  width: 90%;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+`;
 
-export const Griimage = styled.img`
-
-
-
-width: 90%;
-border-radius: 8px;
-cursor: pointer;
-display: block;
-
-`
 // Fundo escuro do modal, cobrindo toda a tela
-export const Modalorverlay = styled.div`
+export const ModalOverlay = styled.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -48,11 +35,8 @@ export const MODALCONTENT = styled.div`
   max-height: 70%;
 
   @media (max-width: 480px) {
-
-position: relative;
-  max-width: 90%;
-  max-height: 90%;
-    
+    max-width: 90%;
+    max-height: 90%;
   }
 `;
 
@@ -61,21 +45,12 @@ export const Modalimagem = styled.img`
   width: 55vh;
   height: auto;
   border-radius: 8px;
-  left: auto;
 
-    @media (max-width: 480px) {
-
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-    
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
   }
-
-  
-
 `;
-
-
 
 // Botão para fechar o modal
 export const Closebutton = styled.button`
@@ -91,10 +66,3 @@ export const Closebutton = styled.button`
   cursor: pointer;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 `;
-
-
-
-
-
-
-
