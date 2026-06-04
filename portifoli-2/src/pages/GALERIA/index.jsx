@@ -20,6 +20,8 @@ import imagem6 from '../../assets/img/lazaro.jpeg'
 
 
 const imagens = [
+  
+  { id: 6, url: imagem1, },
   { id: 5, url: imagem1, },
   { id: 2, url: imagem2, },
   { id: 3, url: imagem3, },
