@@ -18,6 +18,8 @@ import imagem3 from '../../assets/img/manobrow.jpg'
 import imagem4 from '../../assets/img/kurt.jpg'
 import imagem5 from '../../assets/img/naruto.jpg'
 import imagem6 from '../../assets/img/lazaro.jpeg'
+import imagem7 from '../../assets/img/CHORAO.jpeg'
+import imagem8 from '../../assets/img/SABOTAGE.jpeg'
 
 
 const imagens = [
