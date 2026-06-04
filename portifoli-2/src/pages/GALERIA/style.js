@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 
 export const GridContainer = styled.div`
@@ -6,6 +6,7 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(3,1fr);
   gap: 8px;
   padding-top: 140px  ; /* espaço para o header fixo */
+  
   
   
   
@@ -25,6 +26,16 @@ width: 90%;
 border-radius: 8px;
 cursor: pointer;
 display: block;
+
+ transition: all 0.35s ease;
+
+  &:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.85);
+    filter: brightness(1.15);
+  }
+
+
 
 `
 // Fundo escuro do modal, cobrindo toda a tela
