@@ -4,6 +4,7 @@
 
 import Header from "../../components/header";
 import { useState } from "react";
+import { PageTransition } from "../../components/paginade transicao/PageTransition";
 
 
 import { GridContainer, Griimage,Modalorverlay,MODALCONTENT,
@@ -71,7 +72,7 @@ function handleoverlayclick(e) {
 
 
   return (
-    <>
+    <PageTransition>
       <Header titulo="Galeria" />
 
        
@@ -124,7 +125,7 @@ function handleoverlayclick(e) {
 
       
 
-    </>
+    </PageTransition>
   );
 }
 

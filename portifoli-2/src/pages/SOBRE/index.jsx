@@ -2,6 +2,7 @@
 import {IMAGEMSOBRE, DIVCONTAINER}  from './styles'
 import Header from '../.././components/header'
 import imagem from '../../assets/img/SOBRE.jpg'
+import { PageTransition } from '../../components/paginade transicao/PageTransition'
 
 
 
@@ -14,7 +15,7 @@ function Sobre() {
 
     return (
 
-        <>
+        <PageTransition>
 
             <Header titulo='Sobre'/>
 
@@ -45,7 +46,7 @@ Minha jornada começou na infância, quando minha família percebeu que eu gosta
 
 
 
-        </>
+        </PageTransition>
 
     )
 

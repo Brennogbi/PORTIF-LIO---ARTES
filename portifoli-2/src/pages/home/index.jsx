@@ -6,6 +6,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 
 import Header from '../../components/header'
+import { PageTransition } from '../../components/paginade transicao/PageTransition'
+
 
 
 
@@ -19,7 +21,11 @@ function Home() {
 
  
   return (
-    <>
+
+
+     
+    
+    <PageTransition>
        {/**usei o componente Header */}
       <Header titulo='Breno Santos'/> 
 
@@ -56,7 +62,7 @@ function Home() {
 
       </FOOOTER>
 
-    </>
+    </PageTransition>
   )
 }
 

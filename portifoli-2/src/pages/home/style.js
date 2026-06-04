@@ -174,10 +174,10 @@ a{
 
 i{
   font-size: 30px;
-  color: #646464ff;
+  color: rgb(19, 13, 18);
 
   &:hover{
-    color: #131212ff;
+    color: rgb(136, 32, 139);
     
 
   }
