@@ -1,7 +1,7 @@
 
 import {IMAGEMSOBRE, DIVCONTAINER}  from './styles'
 import Header from '../.././components/header'
-import imagem from '../../assets/img/SOBRE.jpg'
+import imagem from '../../assets/img/eu.jpeg'
 import { PageTransition } from '../../components/paginade transicao/PageTransition'
 
 
