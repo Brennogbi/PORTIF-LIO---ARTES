@@ -24,6 +24,8 @@ import imagem8 from '../../assets/img/SABOTAGE.jpeg'
 
 const imagens = [
   
+  { id: 8, url: imagem8, },
+  { id: 7, url: imagem7, },
   { id: 6, url: imagem6, },
   { id: 5, url: imagem1, },
   { id: 2, url: imagem2, },
