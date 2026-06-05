@@ -3,8 +3,10 @@
 Portfólio artístico desenvolvido com React, Styled Components e React Router.
 
 💻 Desktop
-📱 Mobile
-![Desktop](./screenshots/mocap.jpg)
+## 💻 Desktop
+
+![Desktop](./screenshots/desktop.png)
+
 
 
 
