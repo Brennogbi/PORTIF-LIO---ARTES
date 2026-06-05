@@ -6,7 +6,7 @@ Portfólio artístico desenvolvido com React, Styled Components e React Router.
 ## 💻 Desktop
 
 
-![Mockup](screenshots/mocap.jpg)
+![Mockup](./screenshots/mocap.jpg)
 
 
 
