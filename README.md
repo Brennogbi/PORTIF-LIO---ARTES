@@ -1,6 +1,5 @@
- 🎨 Portfólio de Arte
-
-Portfólio artístico desenvolvido com React, Styled Components e React Router.
+🎨 Portfólio artístico desenvolvido com React, Styled Components e React Router. O projeto apresenta uma galeria de artes digitais e tradicionais,
+animações suaves, design responsivo e navegação dinâmica entre páginas.
 
 
 ## 💻 Desktop
